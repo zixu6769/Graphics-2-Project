@@ -1,0 +1,38 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>StoredTextureXY.vert</file>
+    <file>StoredTextureXZ.vert</file>
+    <file>ProceduralXZ.vert</file>
+    <file>ProceduralXY.vert</file>
+    <file>Flame.vert</file>
+    <file>NoiseXY.vert</file>
+    <file>Flame.frag</file>
+    <file>Floor.frag</file>
+    <file>Stairs.frag</file>
+    <file>Wood.frag</file>
+    <file>Leaf.frag</file>
+    <file>Skin.frag</file>
+    <file>Water.frag</file>
+    <file>Metal.frag</file>
+    <file>FrontdoorWall.frag</file>
+    <file>OuterGround.frag</file>
+    <file>Maindoor.frag</file>
+    <file>Cloth.frag</file>
+    <file>Mask.frag</file>
+    <file>stone.png</file>
+    <file>grass.bmp</file>
+    <file>dark.bmp</file>
+    <file>TropicalSunnyDayUp.bmp</file>
+    <file>TropicalSunnyDayBack.bmp</file>
+    <file>TropicalSunnyDayLeft.bmp</file>
+    <file>TropicalSunnyDayRight.bmp</file>
+    <file>TropicalSunnyDayFront.bmp</file>
+    <file>FullMoonUp.bmp</file>
+    <file>FullMoonBack.bmp</file>
+    <file>FullMoonLeft.bmp</file>
+    <file>FullMoonRight.bmp</file>
+    <file>FullMoonFront.bmp</file>
+    <file>scream.png</file>
+    <file>particle.png</file>
+</qresource>
+</RCC>

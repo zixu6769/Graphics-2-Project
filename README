@@ -1,0 +1,46 @@
+CSCI-4239 Final Project
+Professor Schreuder
+Student Name: Zijun Xu
+
+--------------------------How to run the project------------------------------------
+1. qmake project.pro
+2. make
+3. run project
+* Add flag -Wno-deprecated-declarations to ignore the warning.
+* In order to see the objects in first person view, move your cursor to the main screen.
+* If you have trouble moving the camera when in first person view, restart the program.
+----------------------------Project Overview----------------------------------------
+In this project, you will be able to explore a scene of a medieval castle. The inside of the main room consists of a drawing, stairs, floors, and carpet. The main room is guarded by two knights. The castle is protected by city walls, watch towers, and a main gate. The castle is built on a small island surrounded by a lake, which is connected to the mainland by a bridge. There is a daylight mode and a night mode. During the day, sun is the light source. The position of sunlight is indicated by a yellow ball that is circling around the scene. During night, a few torches will light up the scene. You can explore the scene either in first person camera or a perspective mode.
+
+There are a few kinds of shaders involved in this project. 
+1) Procedural shaders to draw patterns on objects(floor, roof, inner layer of the knight's armor, and the masks of the knights).
+2) Noise shaders to simulate random textures(Leafs, roots, frame of the drawing, outer layer of the knight's armor, river, and skin).
+3) Particle engine to make the flames.
+4) Special shaders to shape the objects(the arc shape entrance on the wall, the main gate, and the ground).
+
+----------------------------Key binding and buttons---------------------------------
+On the right side of the main window, there are two buttons:
+Reset - reset the position and angle of camera.
+Quit - quit the program.
+
+Overall control:
+m - switch between perspective/first person camera. Default is perspective.
+l - switch between day/night. Default is day.
+p - toggle the knight to wear/take off the armor.
+
+Perspective control:
+Arrows - move the scene
+Mouse wheel - zoom in/out
+
+First person camera control:
+w/s      move forward/backward
+a/d      move left/right
+1/2      decrease/increase height of camera
+drag your mouse to look around
+* Your mouse pointer will be hidden if in the main window.
+
+------------------------------Things I am proud of-----------------------------------
+You can press p to switch off the armor the knights are wearing. The knights are inspired by video game "Dark Souls". I created them in layers. Skin and the armor set are colored by noise shaders. The mask and soft layer are colored by procedural shaders. The swords are colored with fixed RGB. Drawing the 3D model was time consuming but I think the result looks good.
+
+------------------------------Hours spent--------------------------------------------
+I spent around around 80 hours on this project.
